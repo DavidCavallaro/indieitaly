@@ -2,9 +2,6 @@
 
 This is the site for my Discord server. [Join now](https://dsc.gg/chillcastle)!
 
-[![Build Status](https://github.com/DavidCavallaro/chillcastle/workflows/CI/badge.svg)](https://github.com/DavidCavallaro/chillcastle/actions?workflow=CI)
-[![dependencies Status](https://david-dm.org/DavidCavallaro/chillcastle/status.svg)](https://david-dm.org/foundation/foundation-sites)
-[![devDependencies Status](https://david-dm.org/DavidCavallaro/chillcastle/dev-status.svg)](https://david-dm.org/DavidCavallaro/chillcastle?type=dev)
 [![npm version](https://badge.fury.io/js/chillcastle.svg)](https://badge.fury.io/js/chillcastle)
 [![Bower version](https://badge.fury.io/bo/foundation-sites.svg)](https://badge.fury.io/bo/chillcastle)
 [![Gem Version](https://badge.fury.io/rb/chillcastle.svg)](https://badge.fury.io/rb/chillcastle)
