@@ -96,7 +96,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(235, 122, 122);
+	background-color: rgb(31, 30, 30);
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
