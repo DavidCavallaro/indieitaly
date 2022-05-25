@@ -296,17 +296,6 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#services .service-item::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: .9;
-	z-index: -1;
-}
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
