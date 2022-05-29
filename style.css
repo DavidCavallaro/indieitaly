@@ -257,25 +257,25 @@ p {
 #home h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
-#music .services {
+#services .services {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#music .service-top {
+#services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#music .service-bottom {
+#services .service-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#music .service-item {
+#services .service-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -290,7 +290,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#music .service-item::after {
+#services .service-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -301,18 +301,18 @@ p {
 	opacity: .9;
 	z-index: -1;
 }
-#music .service-bottom .icon {
+#services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#music .service-item h2 {
+#services .service-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#music .service-item p {
+#services .service-item p {
 	color: white;
 	text-align: left;
 }
