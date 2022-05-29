@@ -444,15 +444,15 @@ p {
 
 
 
-#contact .contact {
+#about .contact {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 }
-#contact .contact-items {
+#about .contact-items {
 	width: 400px;
 }
-#contact .contact-item {
+#about .contact-item {
 	width: 80%;
 	padding: 20px;
 	text-align: center;
@@ -466,20 +466,20 @@ p {
 	box-shadow: 0px 0px 18px 0 #0000002c;
 	transition: .3s ease box-shadow;
 }
-#contact .contact-item:hover {
+#about .contact-item:hover {
 	box-shadow: 0px 0px 5px 0 #0000002c;
 }
-#contact .icon {
+#about .icon {
 	width: 70px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
-#contact .contact-info h1 {
+#about .contact-info h1 {
 	font-size: 2.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
-#contact .contact-info h2 {
+#about .contact-info h2 {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	font-weight: 500;
@@ -628,33 +628,33 @@ p {
 	}
 
 
-	#contact .contact {
+	#about .contact {
 		flex-direction: column;
 		padding: 100px 0;
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
 	}
-	#contact .contact-items {
+	#about .contact-items {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
 	}
-	#contact .contact-item {
+	#about .contact-item {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
 	}
-	#contact .contact-item .icon {
+	#about .contact-item .icon {
 		height: 100px;
 		width: 100px;
 	}
-	#contact .contact-item .icon img {
+	#about .contact-item .icon img {
 		object-fit: contain;
 	}
-	#contact .contact-item .contact-info {
+	#about .contact-item .contact-info {
 		width: 100%;
 		text-align: left;
 		padding-left: 20px;
