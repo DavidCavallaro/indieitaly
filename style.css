@@ -193,10 +193,8 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-
-
 #hero {
-	background-image: url(https://i.imgur.com/vdKf71h.png);
+	background-image: url(./img/wallpaper11.jpeg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -257,6 +255,9 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
+
+
+
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -547,7 +548,7 @@ p {
 	h1.section-title {
 		font-size: 6rem;
 	}
-	#home h1 {
+	#hero h1 {
 		font-size: 7rem;
 	}
 	#services .service-bottom .service-item {
