@@ -265,17 +265,6 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#services .service-top {
-	max-width: 500px;
-	margin: 0 auto;
-}
-#services .service-bottom {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin-top: 50px;
-}
 #services .service-item {
 	flex-basis: 80%;
 	display: flex;
