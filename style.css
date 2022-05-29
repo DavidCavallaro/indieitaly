@@ -195,14 +195,14 @@ p {
 }
 
 
-#home {
+#hero {
 	background-image: url(./img/ii22.jpeg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
 	z-index: 1;
 }
-#home::after {
+#hero::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -213,13 +213,13 @@ p {
 	opacity: .7;
 	z-index: -1;
 }
-#home .hero {
+#hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#home h1 {
+#hero h1 {
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
@@ -228,17 +228,17 @@ p {
 	animation: text_reveal .5s ease forwards;
 	animation-delay: 1s;
 }
-#home h1:nth-child(1) {
+#hero h1:nth-child(1) {
 	animation-delay: 1s;
 }
-#home h1:nth-child(2) {
+#hero h1:nth-child(2) {
 	animation-delay: 2s;
 }
-#home h1:nth-child(3) {
+#hero h1:nth-child(3) {
 	animation: text_reveal_name .5s ease forwards;
 	animation-delay: 3s;
 }
-#home h1 span {
+#hero h1 span {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -248,13 +248,13 @@ p {
 	animation: text_reveal_box 1s ease;
 	animation-delay: .5s;
 }
-#home h1:nth-child(1) span {
+#hero h1:nth-child(1) span {
 	animation-delay: .5s;
 }
-#home h1:nth-child(2) span {
+#hero h1:nth-child(2) span {
 	animation-delay: 1.5s;
 }
-#home h1:nth-child(3) span {
+#hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
 #services .services {
