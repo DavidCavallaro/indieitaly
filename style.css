@@ -262,25 +262,25 @@ p {
 }
 
 
-#music .services {
+#services .services {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#music .service-top {
+#services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#music .service-bottom {
+#services .service-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#music .service-item {
+#services .service-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -295,7 +295,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#music .service-item::after {
+#services .service-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -306,39 +306,39 @@ p {
 	opacity: .9;
 	z-index: -1;
 }
-#music .service-bottom .icon {
+#services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#music .service-item h2 {
+#services .service-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#music .service-item p {
+#services .service-item p {
 	color: white;
 	text-align: left;
 }
 
 
-#academy .projects {
+#projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#academy .projects-header h1 {
+#projects .projects-header h1 {
 	margin-bottom: 50px;
 }
-#academy .all-projects {
+#projects .all-projects {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#academy .project-item {
+#projects .project-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -348,7 +348,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#academy .project-info {
+#projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -359,25 +359,25 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#academy .project-info h1 {
+#projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#academy .project-info h2 {
+#projects .project-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#academy .project-info p {
+#projects .project-info p {
 	color: white;
 }
-#academy .project-img {
+#projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-#academy .project-img:after {
+#projects .project-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -387,39 +387,39 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: .7;
 }
-#academy .project-img img {
+#projects .project-img img {
 	transition: .3s ease transform;
 }
-#academy .project-item:hover .project-img img {
+#projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
 
 
 
-#brand .about {
+#about .about {
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
 }
-#brand .col-left {
+#about .col-left {
 	width: 250px;
 	height: 360px;
 }
-#brand .col-right {
+#about .col-right {
 	width: 100%;
 }
-#brand .col-right h2 {
+#about .col-right h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: .2rem;
 	margin-bottom: 10px;
 }
-#brand .col-right p {
+#about .col-right p {
 	margin-bottom: 20px;
 }
-#brand .col-right .cta {
+#about .col-right .cta {
 	color: black;
 	margin-bottom: 50px;
 	padding: 10px 20px;
@@ -431,7 +431,7 @@ p {
 	position: relative;
 	border: 10px solid white;
 }
-#brand .col-left .about-img::after {
+#about .col-left .about-img::after {
 	content: '';
 	position: absolute;
 	left: -33px;
@@ -444,15 +444,15 @@ p {
 
 
 
-#about .contact {
+#contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 }
-#about .contact-items {
+#contact .contact-items {
 	width: 400px;
 }
-#about .contact-item {
+#contact .contact-item {
 	width: 80%;
 	padding: 20px;
 	text-align: center;
@@ -466,20 +466,20 @@ p {
 	box-shadow: 0px 0px 18px 0 #0000002c;
 	transition: .3s ease box-shadow;
 }
-#about .contact-item:hover {
+#contact .contact-item:hover {
 	box-shadow: 0px 0px 5px 0 #0000002c;
 }
-#about .icon {
+#contact .icon {
 	width: 70px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
-#about .contact-info h1 {
+#contact .contact-info h1 {
 	font-size: 2.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
-#about .contact-info h2 {
+#contact .contact-info h2 {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	font-weight: 500;
@@ -576,17 +576,17 @@ p {
 
 
 
-	#academy .service-bottom .service-item {
+	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
 
 
 
-	#academy .project-item {
+	#projects .project-item {
 		flex-direction: row;
 	}
-	#academy .project-item:nth-child(even) {
+	#projects .project-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
 	#projects .project-item {
@@ -595,66 +595,66 @@ p {
 		width: 100%;
 		border-radius: 0;
 	}
-	#academy .all-projects .project-info {
+	#projects .all-projects .project-info {
 		height: 100%;
 	}
-	#academy .all-projects .project-img {
+	#projects .all-projects .project-img {
 		height: 100%;
 	}
 
 
 
-	#brand .about {
+	#about .about {
 		flex-direction: row;
 	}
-	#brand .col-left {
+	#about .col-left {
 		width: 600px;
 		height: 400px;
 		padding-left: 60px;
 	}
-	#brand .about .col-left .about-img::after {
+	#about .about .col-left .about-img::after {
 		left: -45px;
 		top: 34px;
 		height: 98%;
 		width: 98%;
 		border: 10px solid crimson;
 	}
-	#brand .col-right {
+	#about .col-right {
 		text-align: left;
 		padding: 30px;
 	}
-	#brand .col-right h1 {
+	#about .col-right h1 {
 		text-align: left;
 	}
 
 
-	#about .contact {
+	#contact .contact {
 		flex-direction: column;
 		padding: 100px 0;
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
 	}
-	#about .contact-items {
+	#contact .contact-items {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
 	}
-	#about .contact-item {
+	#contact .contact-item {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
 	}
-	#about .contact-item .icon {
+	#contact .contact-item .icon {
 		height: 100px;
 		width: 100px;
 	}
-	#about .contact-item .icon img {
+	#contact .contact-item .icon img {
 		object-fit: contain;
 	}
-	#about .contact-item .contact-info {
+	#contact .contact-item .contact-info {
 		width: 100%;
 		text-align: left;
 		padding-left: 20px;
